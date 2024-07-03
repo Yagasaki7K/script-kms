@@ -1,4 +1,5 @@
 # script-kms
+> Open Powershell in Administration Mode and paste the code above.
 
 ```bash
 # Check the instructions here on how to use it mass grave[.]dev
