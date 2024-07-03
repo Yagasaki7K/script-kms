@@ -1,5 +1,6 @@
 # script-kms
 
+```bash
 # Check the instructions here on how to use it mass grave[.]dev
 
 $ErrorActionPreference = "Stop"
@@ -38,3 +39,4 @@ Start-Process $FilePath $ScriptArgs -Wait
 
 $FilePaths = @("$env:TEMP\MAS*.cmd", "$env:SystemRoot\Temp\MAS*.cmd")
 foreach ($FilePath in $FilePaths) { Get-Item $FilePath | Remove-Item }
+```
