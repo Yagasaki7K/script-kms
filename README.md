@@ -1,4 +1,4 @@
-# script-kms
+# Script for Crack Windows or Office
 > Open Powershell in Administration Mode and paste the code above.
 
 ```bash
@@ -40,4 +40,9 @@ Start-Process $FilePath $ScriptArgs -Wait
 
 $FilePaths = @("$env:TEMP\MAS*.cmd", "$env:SystemRoot\Temp\MAS*.cmd")
 foreach ($FilePath in $FilePaths) { Get-Item $FilePath | Remove-Item }
+```
+
+# Another Way
+```bash
+irm https://massgrave.dev/get | iex
 ```
