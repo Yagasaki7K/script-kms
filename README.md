@@ -46,3 +46,8 @@ foreach ($FilePath in $FilePaths) { Get-Item $FilePath | Remove-Item }
 ```bash
 irm https://massgrave.dev/get | iex
 ```
+
+# Tweaks Windows
+```bash
+iwr -useb https://christitus.com/win | iex
+```
